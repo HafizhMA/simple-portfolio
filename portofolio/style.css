@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 20, 20);
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerlink a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+.headerlink a:hover{
+    text-decoration: underline;
+    background-color:rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+.itemheader{
+    margin-right: 30px;
+}
+
+.icon img{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+}
+
+.icon img:hover{
+    transform: scale(1.2);
+}
+
+.icon2 img{
+    margin-left: 10px;
+}
+
+.abstrak{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.abstrak h1{
+    color: white;
+    font-weight: 500;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7)
+}
+
+.project{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.image{
+    width: 100%;
+    height: 200px;
+}
+
+.card{
+    border: 5px solid rgb(46, 45, 45);
+    border-radius: 5px;
+}
+
+.image1{
+    background-image: url(png/landingpage.png);
+    background-size: cover;
+}
+
+.image2{
+    background-image: url(png/galeri.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.image3{
+    background-image: url(png/portofolio.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.judul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.judul h3{
+    margin-right: 30px;
+}
+
+.judullink{
+    text-decoration: none;
+    color: white;
+}
+
+.image, .judul, p {
+    margin-bottom: 15px;
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    width: 100%;
+    margin-top: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
